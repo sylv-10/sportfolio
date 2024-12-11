@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylvia Portfolio</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: pink;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: rgb(250, 28, 65);
+            font-weight: bold;
+            font-size: 60px;
+
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            color: rgb(237, 48, 80);
+            font-size: 25px;
+        }
+
+       
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            width: 100%;
+            max-width: 800px;
+            margin-top: 25px;
+
+        
+        }
+
+        .portfolio-item {
+            background: rgb(230, 29, 63);
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            margin-bottom: 10px;
+            text-align: center;
+            border-radius: 8px;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .portfolio-item:hover {
+            background: rgb(253, 69, 100);
+            transform: scale(1.05);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Sylvia's Portfolio</h1>
+        <p>Welcome to my project showcase!</p>
+    </header>
+    <main class="portfolio">
+        <a href="https://web-responsive-css.netlify.app/" class="portfolio-item">Activity 1</a>
+        <a href="https://fastidious-tapioca-71ffc1.netlify.app/" class="portfolio-item">Activity 2</a>
+        <a href="https://cute-druid-4e7a3f.netlify.app/" class="portfolio-item">Activity 3</a>
+        <a href="https://sylviaweb.netlify.app/" class="portfolio-item">Activity 4</a>
+        <a href="https://sylvia2d.netlify.app/" class="portfolio-item">Activity 5</a>
+          <a href="https://enchanting-hamster-e03943.netlify.app/" class="portfolio-item">Activity 6</a>
+    </main>
+    
+</body>
+</html>
+
